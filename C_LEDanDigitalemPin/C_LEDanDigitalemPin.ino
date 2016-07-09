@@ -2,9 +2,12 @@ void setup() {
   pinMode(3, OUTPUT);
 }
 
+int a = 1;
 void loop() {
-   digitalWrite(3, HIGH);
+   a = 1;
+   digitalWrite(3, a);
    delay(2000);
-   digitalWrite(3, LOW);
+   a = 0;
+   digitalWrite(3, a);
    delay(2000);
 }
