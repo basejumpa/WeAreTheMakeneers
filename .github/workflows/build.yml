@@ -1,0 +1,32 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: build website
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v2
+      - name: Install pipenv
+        run: python -m pip install --upgrade pipenv
+      - name: Install dependencies
+        run: pipenv install
+      - name: Build website
+        run: pipenv run make html
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'build/html'
