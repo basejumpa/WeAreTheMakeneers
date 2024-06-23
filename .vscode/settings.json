@@ -16,6 +16,13 @@
     },
 
 
+    "gitPrefix.pattern": "(?:[a-zA-Z]+\\/)?((?:[a-zA-Z]+)(?:-[0-9]+)?)-?.+",
+    "gitPrefix.replacement": "$1",
+
+
+    "annotator.git.ignoreWhitespaceOnBlame": true,
+
+
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
     "editor.wordWrap": "bounded",
@@ -56,6 +63,7 @@
     "indentRainbow.ignoreErrorLanguages" : [
         "yaml"
     ],
+
 
     "pasteImage.encodePath": "none",
     "pasteImage.path": "${currentFileDir}/_figures",

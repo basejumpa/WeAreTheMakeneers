@@ -121,7 +121,7 @@ if False:
 
 html_show_sourcelink = True
 
-html_theme = "sphinx_material"
+html_theme = "pydata_sphinx_theme"
 
 # Override the html_theme for previewing in VSCode.
 # Esbonio language server we use in VSCode for previewing crashes when using the "sphinx_material" theme.
@@ -133,6 +133,7 @@ if os.environ.get('VSCODE_CLI') is not None:
 
 # The theme settings are theme specific. So wrap their settings into if-clauses for easy
 # switching of themes.
+
 if "sphinx_material" == html_theme: ###########################################
 # @eee https://bashtage.github.io/sphinx-material/customization.html
 
@@ -180,6 +181,9 @@ elif "classic" == html_theme: #################################################
     html_sidebars = {
         "**": []
     }
+
+elif "pydata_sphinx_theme" == html_theme: #####################################
+    pass
 
 else:
     pass

@@ -14,4 +14,4 @@ hierher übertragen.
 
     01-led-anschliessen
     02-led-steuern
-    Lizenz
+    lizenz
