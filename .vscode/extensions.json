@@ -1,0 +1,29 @@
+{
+    "recommendations": [
+        "editorconfig.editorconfig",
+        "medo64.render-crlf",
+
+        "mhutchie.git-graph",
+        "ms-python.python",
+
+        "lextudio.restructuredtext",
+        "trond-snekvik.simple-rst",
+
+        "actboy168.tasks",
+        "forbeslindesay.forbeslindesay-taskrunner",
+
+        "hediet.vscode-drawio",
+        "jebbs.plantuml",
+        "bierner.markdown-mermaid",
+        "dendron.dendron-paste-image",
+        "rulyotano.tree-extended",
+
+        "vscode-icons-team.vscode-icons",
+        "swyddfa.esbonio",
+        "tintinweb.graphviz-interactive-preview",
+        "stkb.rewrap",
+        "oderwat.indent-rainbow",
+        "david-rickard.git-diff-and-merge-tool"
+
+    ]
+}
