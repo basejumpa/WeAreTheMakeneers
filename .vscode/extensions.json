@@ -4,6 +4,11 @@
         "medo64.render-crlf",
 
         "mhutchie.git-graph",
+        "david-rickard.git-diff-and-merge-tool",
+        "vivaxy.vscode-conventional-commits",
+        "adam-bender.commit-message-editor",
+        "srmeyers.git-prefix",
+
         "ms-python.python",
 
         "lextudio.restructuredtext",
@@ -22,8 +27,7 @@
         "swyddfa.esbonio",
         "tintinweb.graphviz-interactive-preview",
         "stkb.rewrap",
-        "oderwat.indent-rainbow",
-        "david-rickard.git-diff-and-merge-tool"
+        "oderwat.indent-rainbow"
 
     ]
 }
