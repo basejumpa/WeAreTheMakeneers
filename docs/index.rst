@@ -14,4 +14,12 @@ hierher übertragen.
 
     01-led-anschliessen
     02-led-steuern
+    03-infos-an-computer
+    04-schalter-einlesen
+    05-led-ueber-schalter-ansteuern
+    06-servo-ansteuern
+    07-lichtsensor-benutzen
+    08-lichtsensor-steuert-led
+    09-toggle-schalter-mit-bibliothek
+    10-auf-schalter-reagieren-egal-wo-program
     lizenz
