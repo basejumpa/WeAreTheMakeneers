@@ -22,4 +22,4 @@ hierher übertragen.
     08-lichtsensor-steuert-led
     09-toggle-schalter-mit-bibliothek
     10-auf-schalter-reagieren-egal-wo-program
-    lizenz
+    license
