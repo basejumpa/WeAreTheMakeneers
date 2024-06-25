@@ -3,16 +3,19 @@
 
 Wir steuern jetzt einen Servo an. Solche Servos werden in ferngesteuerten Modellen verwendet, für die Lenkung zum Beispiel.
 
-Den Servotyp, den wir verwenden kann Positionen zwischen 0° und 180° annehmen. Er sieht etwas anders aus als auf der folgenden Darstellung und die Farben der drei Kabel sind anders. Zwei der Kabel (braun und rot) dienen der Spannungsversorgung und das dritte, orange Kabel ist die Steuerleitung. Über die Steuerleitung bekommt über Spannungspulse der Servo mitgeteilt, welchen Winkel er anfahren soll.
+Den Servotyp, den wir verwenden kann Positionen zwischen 0° und 180° annehmen. Er sieht etwas anders
+aus als auf der folgenden Darstellung und die Farben der drei Kabel sind anders. Zwei der Kabel
+(braun und rot) dienen der Spannungsversorgung und das dritte, orange Kabel ist die Steuerleitung.
+Über die Steuerleitung bekommt über Spannungspulse der Servo mitgeteilt, welchen Winkel er anfahren
+soll.
+
+.. figure:: _figures/06-servo-ansteuern.png
 
 Wir müssen die Kabel wie folgt mit dem Arduino (über das Steckbrett) verbinden. Dazu nehmen wir als Zwischenkabel unsere normalen Steckbrett-Kabel:
 
 - Rotes Kabel an 5V
 - Braunes Kabel an GND
 - Oranges Kabel an D5
-
-.. figure:: _figures/06-servo-ansteuern.png
-
 
 Folgendes Programm passt zu der Schaltung und bewegt jede Sekunde den Servo auf eine der Positionen
 0°, 90° und 180°.

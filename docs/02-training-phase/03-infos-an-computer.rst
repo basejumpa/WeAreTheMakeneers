@@ -1,6 +1,8 @@
 3. Übung: Text und Zahlen an Computer übermitteln
 #################################################
 
+.. figure:: _figures/03-infos-an-computer.png
+
 Über die USB-Schnittstelle können Computer und Arduino auch mit einander reden. Wir tun dies hier nur in eine Richtung: Der Arduino soll dem Computer ein paar Infos rüber schicken.
 
 Für diese Übung ist es egal, ob und welche Schaltung auf dem Steckbrett ist, da wir keinerlei Pins des Arduinos verwenden.
@@ -52,5 +54,3 @@ Der erste Bereich hat drei Teile, die voneinander mit Semikolons getrennt sind.
 - Der dritte Teil wird nach (nicht vor!) jeder Schleife ausgeführt.
 
 Wenn wir den seriellen Monitor uns anschauen sehen wir nun, anstelle der Hallos, Zahlen die von 0 bis 99 gehen und dann wieder bei 0 anfangen. Wenn wir den seriellen Monitor schließen und dafür den seriellen Plotter aufmachen, sehen wir die Zahlen als Graph aufgetragen. Dabei ist die y-Achse die Zahl(en), die x-Achse ist die Zeit. Diese Form nennt man übrigens „Sägezahn“.
-
-.. figure:: _figures/03-infos-an-computer.png

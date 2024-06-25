@@ -1,9 +1,7 @@
 10. Übung: Auf Schalter reagieren, egal wo das Programm ist
 ###########################################################
 
-Todo: Beschreibung
-
-Siehe https://www.arduino.cc/en/Reference/AttachInterrupt
+.. todo:: Füge Beschreibung hinzu. Siehe [#]_.
 
 .. code-block:: cpp
 
@@ -25,3 +23,7 @@ Siehe https://www.arduino.cc/en/Reference/AttachInterrupt
     void schalte() {
         licht = !licht;
     }
+
+.. rubric:: Anmkerungen
+
+.. [#] Siehe https://www.arduino.cc/en/Reference/AttachInterrupt

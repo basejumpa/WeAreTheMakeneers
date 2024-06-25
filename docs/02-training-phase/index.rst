@@ -10,7 +10,7 @@ Am Ende des Trainings habt Ihr einen Baukasten von Fähigkeiten, die Ihr für Eu
 
 .. figure:: _figures/skills.png
 
-    Baukasten der Fähigkeiten
+    Baukasten der Fähigkeiten [#]_
 
 .. toctree::
     :maxdepth: 1
@@ -25,3 +25,8 @@ Am Ende des Trainings habt Ihr einen Baukasten von Fähigkeiten, die Ihr für Eu
     08-lichtsensor-steuert-led
     09-toggle-schalter-mit-bibliothek
     10-auf-schalter-reagieren-egal-wo-program
+    99-fehlende-uebungen.rst
+
+.. rubric:: Anmerkungen
+
+.. [#] Die mit :kbd:`VIN` gekennzeichneten Fähigkeiten benötigen eine stärkere Stromquelle, als die der Arduino selbst darstellt. Dazu benötigen wir die Erweiterung auf dem Steckbrett und die Powerbank.

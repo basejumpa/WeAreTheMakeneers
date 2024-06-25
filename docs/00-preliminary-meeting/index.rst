@@ -15,7 +15,9 @@ Was die Schüler in den Jahren 2016 und 2018 gemacht haben, könnt Ihr auf der `
 <https://basejumpa.wordpress.com/2016/07/06/spassmitelektronik2016/>`__ sehen (ganz am Ende der
 Seite).
 
-.. rubric:: Fußnoten
+Um an den Projekttagen gleich durchstarten zu können, schauen wir uns die :ref:`sec-preparation` an.
+
+.. rubric:: Anmerkungen
 
 .. [#] Das tue ich auch sowohl während meiner Arbeitszeit bei `Vitronic
     <https://www.vitronic.com/en-us/corporate-home>`__ als auch in meiner `Freizeit
