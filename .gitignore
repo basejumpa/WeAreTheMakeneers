@@ -31,4 +31,4 @@ esbonio.*
 
 # Any pycache-files which might appear
 __pycache__/
-
+*.pyc
