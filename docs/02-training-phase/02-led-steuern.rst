@@ -3,7 +3,7 @@
 
 Nun wollen wir die LED mit einem Programm steuern. Dafür müssen wir die Schaltung ändern zu folgender:
 
-.. figure:: _figures/02-led-steuern.webp
+.. figure:: _figures/02-led-steuern.png
 
 Wir haben also den Wiederstand von der 5V Leiste getrennt und über ein orangenes Kabel an den Pin D3 angeschlossen.
 
@@ -17,7 +17,7 @@ Wir schalten sie an indem wir folgendes Programm auf den Arduino hochladen:
         pinMode(3, OUTPUT);
         digitalWrite(3, HIGH);
     }
-    
+
     void loop(){
     }
 
@@ -59,14 +59,14 @@ Als erstes haben wir die LED blinken lassen. Dafür haben wir folgendes Programm
     void setup(){
         pinMode(3, OUTPUT);
     }
-    
+
     void loop(){
         digitalWrite(3, HIGH);
         delay(1000);
         digitalWrite(3, LOW);
         delay(1000);
     }
- 
+
 
 Der Befehl
 

@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hermesbaby = "^0.3.0"
+pydata-sphinx-theme = "^0.15.3"
+
+[tool.poetry.group.dev.dependencies]
+hermesbaby = {extras = ["dev"], version = "^0.3.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
