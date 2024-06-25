@@ -95,6 +95,10 @@ rst_epilog = f"""
 ### General configuration #####################################################
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+
+# @see https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language
+language = conf_project.language if hasattr(conf_project, "language") else "en"
+
 templates_path = []
 
 source_suffix = [
@@ -119,7 +123,7 @@ if False:
         f.write(f"{key}: {value}\n")
     f.close()
 
-html_show_sourcelink = True
+html_show_sourcelink = conf_project.show_sourcelink if hasattr(conf_project, "show_sourcelink") else True
 
 html_theme = "pydata_sphinx_theme"
 
@@ -175,14 +179,20 @@ if "sphinx_material" == html_theme: ###########################################
     if hasattr(conf_project, "color_primary"):
         html_theme_options["color_primary"] = conf_project.color_primary
 
-    html_title = f"{_metadata}"
+    html_title = f"{_metadata}"#
+    pass
 
 elif "classic" == html_theme: #################################################
     html_sidebars = {
         "**": []
     }
+    pass
 
 elif "pydata_sphinx_theme" == html_theme: #####################################
+    html_theme_options = {
+    "show_toc_level": 2
+    }
+
     pass
 
 else:
