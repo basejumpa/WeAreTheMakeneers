@@ -110,6 +110,8 @@ exclude_patterns = [
 
 master_doc = "index"
 
+default_role = "code"
+
 numfig = True
 
 

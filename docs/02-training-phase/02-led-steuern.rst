@@ -37,7 +37,7 @@ Danach ruft er **immer wieder** die **loop** Funktion auf.
 
 Innerhalb jeder Funktion führt er Befehl für Befehl nacheinander aus. Wir programmieren den Arduino übrigens in der Sprache namens C++.
 
-In C++ müssen Befehle durch ein Semikolon (;) voneinander getrennt werden. Ansonsten nimmt der Compiler (das Programm, das unser Programm in für den Arduino ausführbare Zahlenkolonnen übersetzt) nicht an und es gibt ein „Compiler-Fehler“. Wir schreiben normalerweise pro Zeile nur ein Befehl. Das ist aber dem Compiler egal. Das machen wir nur, damit es für uns Programmierer  übersichtlicher ist.
+In C++ müssen Befehle durch ein Semikolon (;) voneinander getrennt werden. Ansonsten nimmt der Compiler (das Programm, das unser Programm in für den Arduino ausführbare Zahlenkolonnen übersetzt) nicht an und es gibt ein "Compiler-Fehler". Wir schreiben normalerweise pro Zeile nur ein Befehl. Das ist aber dem Compiler egal. Das machen wir nur, damit es für uns Programmierer  übersichtlicher ist.
 
 Wir haben nun in die setup Funktion zwei Befehle eingefügt. Die loop Funktion bleibt leer. Der erste Befehl
 

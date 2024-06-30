@@ -37,7 +37,7 @@ Im Programm lesen wir jede loop den Wert an A0 ein uns speichern diesen in die V
 
 Zusätzlich geben wir jede loop den Wert auf der seriellen Schnittstelle aus.
 
-Den Wert 195 haben wir übrigens ermittelt, indem wir genau die Mitte zwischen dem kleinsten und dem größten Wert, wenn wir im seriellen Plotter gesehen haben, ermittelt haben. Diesen Wert nennen wir in diesem Zusammenhang „Schwellwert“.
+Den Wert 195 haben wir übrigens ermittelt, indem wir genau die Mitte zwischen dem kleinsten und dem größten Wert, wenn wir im seriellen Plotter gesehen haben, ermittelt haben. Diesen Wert nennen wir in diesem Zusammenhang "Schwellwert".
 
 Übrigens: Das folgende Programm macht genau das selbe. Erkennt ihr es? Probiert es doch mal aus:
 

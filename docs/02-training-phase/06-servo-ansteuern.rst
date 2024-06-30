@@ -39,7 +39,7 @@ Folgendes Programm passt zu der Schaltung und bewegt jede Sekunde den Servo auf 
         delay(1000);
     }
 
-Das Programm verwendet die Servo-Bibliothek. Diese Bibliothek versteckt für uns die viele Arbeit die dahintersteckt, den Servo anzusteuern. Dazu müssen wir das dazugehörige Header-File, so nennt man die Dateien mit der Endung „.h“ (wir programmieren übrigens die ganze Zeit C++), inkludieren. Noch so ein Programmier-Fachwort.
+Das Programm verwendet die Servo-Bibliothek. Diese Bibliothek versteckt für uns die viele Arbeit die dahintersteckt, den Servo anzusteuern. Dazu müssen wir das dazugehörige Header-File, so nennt man die Dateien mit der Endung ".h" (wir programmieren übrigens die ganze Zeit C++), inkludieren. Noch so ein Programmier-Fachwort.
 
 Dann legen wir eine Variable mit dem Namen servo und vom Typ Servo (letzteres hat ein großes ‚S‘. an. Mittels servo.attach(5) sagen wir der Bibliothek, dass wir den Servo an Pin 5 angeschlossen haben. Nun können wir einfach durch servo.write(winkel) verschiedene Winkel ansteuern.
 
