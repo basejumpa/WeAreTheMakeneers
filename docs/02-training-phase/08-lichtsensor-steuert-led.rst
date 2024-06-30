@@ -28,8 +28,9 @@ Das dazugehörige Programm:
             digitalWrite(2, LOW);
     }
 
-Serial.println(licht);
-}
+    Serial.println(licht);
+    }
+
 
 Mit if-Anweisung oder besser gesagt if-else-Anweisung kann man Entscheidungen und verschiedene Wege durch das Programm realisieren.
 
