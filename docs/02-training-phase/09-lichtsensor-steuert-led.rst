@@ -1,4 +1,4 @@
-8. Übung: Lichtsensor steuert LED
+9. Übung: Lichtsensor steuert LED
 #################################
 
 Wir kombinieren nun Erkenntnisse von vorigen Übungen und lernen auch die if-Anweisung kennen.

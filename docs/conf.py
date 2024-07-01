@@ -10,6 +10,14 @@ import urllib.parse
 
 sys.path.append(os.getcwd())
 
+# Investigate the environment variables
+if False:
+    f = open("env.txt", "w")
+    for key, value in os.environ.items():
+        f.write(f"{key}: {value}\n")
+    f.close()
+
+
 ### Import project configuration ##############################################
 import conf_project
 ###############################################################################
@@ -67,6 +75,7 @@ if hasattr(conf_project, "author"):
 _version = open('../VERSION', 'r').readline().strip()
 
 project   = f"{_project}"
+revision  = f""
 author    = f"{_author}"
 copyright = f"{_year}, {author}"
 release   = f"{_version}"
@@ -118,12 +127,7 @@ numfig = True
 ### Options for HTML output ###################################################
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-# Investigate the environment variables
-if False:
-    f = open("env.txt", "w")
-    for key, value in os.environ.items():
-        f.write(f"{key}: {value}\n")
-    f.close()
+html_title = f"{_project}"
 
 html_show_sourcelink = conf_project.show_sourcelink if hasattr(conf_project, "show_sourcelink") else True
 

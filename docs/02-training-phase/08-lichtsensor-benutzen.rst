@@ -1,4 +1,4 @@
-7. Übung: Lichtsensor benutzen
+8. Übung: Lichtsensor benutzen
 ##############################
 
 Mit dem Lichtsensor können wir die Helligkeit messen.

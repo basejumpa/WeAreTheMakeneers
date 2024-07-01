@@ -1,4 +1,4 @@
-6. Übung: Servo ansteuern
+7. Übung: Servo ansteuern
 #########################
 
 Wir steuern jetzt einen Servo an. Solche Servos werden in ferngesteuerten Modellen verwendet, für die Lenkung zum Beispiel.
