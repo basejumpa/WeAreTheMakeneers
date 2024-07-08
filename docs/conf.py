@@ -49,18 +49,31 @@ _formatted_time = _current_time.strftime("%Y-%m-%d %H:%M:%S")
 _print_out_timestamp = f"{_formatted_time} {_current_time.tzname()}"
 _year = _current_time.strftime("%Y")
 
+
+_git_upstream_repo_url = None
+_git_repo_version = ""
+_git_commit_sha_short = "n.a."
+_git_branch = "n.a."
 try:
     _repo = git.Repo(search_parent_directories=True)
-    _git_upstream_repo_url = _repo.remotes.origin.url
-    _git_commit_sha_short = _repo.git.rev_parse(_repo.head.object.hexsha, short=8)
+    try:
+        _git_upstream_repo_url = _repo.remotes.origin.url
+    except:
+        pass
+    try:
+        _git_repo_version = _repo.git.describe(dirty="+")
+    except:
+        pass
+    try:
+        _git_commit_sha_short = _repo.git.rev_parse(_repo.head.object.hexsha, short=8)
+    except:
+        pass
     try:
         _git_branch = _repo.active_branch.name
     except TypeError:
         _git_branch = "detached HEAD"
 except:
-    _git_commit_sha_short = "n.a."
-    _git_branch = "n.a."
-    _git_upstream_repo_url = None
+    pass
 
 _username = getpass.getuser()
 
@@ -71,18 +84,18 @@ if hasattr(conf_project, "project"):
 _author = "Some Author"
 if hasattr(conf_project, "author"):
     _author = conf_project.author
-
-_version = open('../VERSION', 'r').readline().strip()
+_commit = _git_repo_version
+if "" == _commit:
+    _commit = _git_commit_sha_short
 
 project   = f"{_project}"
-revision  = f""
 author    = f"{_author}"
 copyright = f"{_year}, {author}"
-release   = f"{_version}"
+
 
 ### Construct meta-data header:
 
-_metadata   = f"version: {_version} | commit: {_git_commit_sha_short} | branch: {_git_branch} | printed at {_print_out_timestamp} by {_username}"
+_metadata   = f"commit: {_commit} | branch: {_git_branch} | printed at {_print_out_timestamp} by {_username}"
 
 ## Add CI information
 # Indicator is the environment variable "BUILD_NUMBER" which is set by the CI/CD system.
@@ -117,9 +130,10 @@ source_suffix = [
 exclude_patterns = [
 ]
 
-master_doc = "index"
-
+## Let's expand `some string` to `some string` instead of *some string*
 default_role = "code"
+
+master_doc = "index"
 
 numfig = True
 
@@ -185,14 +199,12 @@ if "sphinx_material" == html_theme: ###########################################
     if hasattr(conf_project, "color_primary"):
         html_theme_options["color_primary"] = conf_project.color_primary
 
-    html_title = f"{_metadata}"#
-    pass
+    html_title = f"{_metadata}"
 
 elif "classic" == html_theme: #################################################
     html_sidebars = {
         "**": []
     }
-    pass
 
 elif "pydata_sphinx_theme" == html_theme: #####################################
     html_theme_options = {
@@ -241,7 +253,11 @@ _plantuml_config_file="plantuml.config"
 
 plantuml = f"java -jar {_conf_location}/../.tools/plantuml.jar -config {_conf_location}/{_plantuml_config_file}"
 
+plantuml_batch_size = 500
+
 plantuml_output_format = "svg"
+
+plantuml_latex_output_format = "pdf"
 
 
 ### Author diagrams of arbitrary types with "Mermaid" #########################
@@ -249,6 +265,9 @@ plantuml_output_format = "svg"
 # @see https://mermaid.js.org/syntax/gitgraph.html
 
 extensions.append("sphinxcontrib.mermaid")
+
+# This allows commands other than binary executables to be executed on Windows.
+mermaid_cmd_shell = "True"
 
 
 ### Author diagrams of arbitrary types with "Graphviz" ########################

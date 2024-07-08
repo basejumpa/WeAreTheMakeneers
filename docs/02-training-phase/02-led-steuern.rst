@@ -76,7 +76,7 @@ Der Befehl
 
 läßt den Arduino genau 1s lang warten. Wenn wir die delays weglassen, dann blinkt die LED schneller als wir es mit dem Auge wahrnehmen können, da der Arduino die Befehle so schnell abarbeitet.
 
-Im Weiteren habt Ihr mehrere LED eingebaut und die Programme entsprechend angepasst. Ihr habt blinkende LEDs und Lauflichter gebaut.
+Im Weiteren habt ihr mehrere LED eingebaut und die Programme entsprechend angepasst. ihr habt blinkende LEDs und Lauflichter gebaut.
 
 Mit einem zu folgendem ähnlichen Programm haben wir die for Schleife kennen gelernt:
 

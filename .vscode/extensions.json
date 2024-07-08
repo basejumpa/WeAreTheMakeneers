@@ -27,7 +27,8 @@
         "swyddfa.esbonio",
         "tintinweb.graphviz-interactive-preview",
         "stkb.rewrap",
-        "oderwat.indent-rainbow"
+        "oderwat.indent-rainbow",
+        "scootersoftware.bcompare-vscode"
 
     ]
 }

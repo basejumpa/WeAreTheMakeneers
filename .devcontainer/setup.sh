@@ -46,6 +46,16 @@ fi
 # Install virtual X-Server
 sudo apt-get install -y xvfb
 
+
+### Install mermaid command line tool #########################################
+
+# This is only necessary when building PDFs
+# TODO: Activate this
+
+# apt-get install -y npm
+
+# npm install -g @mermaid-js/mermaid-cli
+
 ### EOF #######################################################################
 
 

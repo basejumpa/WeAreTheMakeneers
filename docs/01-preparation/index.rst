@@ -7,7 +7,7 @@ Vorbereitungen
     :local:
 
 
-Was Ihr braucht
+Was ihr braucht
 ***************
 
 Folgendes braucht jedes Team, um mitarbeiten zu können.
@@ -43,15 +43,15 @@ Weiterhin sollte jedes Team mitbringen:
 
 .. rubric:: Anmerkungen
 
-.. [#] Der Computer benötigt mindestens einen "normalen" USB-Anschluss (USB-A). Falls Ihr nur einen
+.. [#] Der Computer benötigt mindestens einen "normalen" USB-Anschluss (USB-A). Falls ihr nur einen
     ganz modernen Computer mit außschließlich USB-C-Anschlüssen habt, dann bringt bitte einen
     Adapter mit.
 
-.. [#] Man nennt das auch "Administrator-Rechte". Wenn Ihr nicht wisst, ob Ihr die habt, dann schaut
+.. [#] Man nennt das auch "Administrator-Rechte". Wenn ihr nicht wisst, ob ihr die habt, dann schaut
     hilft auch Kapitel :ref:`sec-admin-rights` weiter.
 
 
-Was Ihr bereitgestellt bekommt
+Was ihr bereitgestellt bekommt
 ******************************
 
 ... für die Trainingsphase

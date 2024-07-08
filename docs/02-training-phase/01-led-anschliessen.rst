@@ -13,7 +13,7 @@ auf dem Steckbrett angebracht, wie auf folgendem Bild dargestellt ist.
 
 .. figure:: _figures/01-led-anschliessen.png
 
-Damit habt Ihr das rote Kabel mit dem 5V-Pin (also dem Pluspol) und das blaue mit dem GND (Steht für
+Damit habt ihr das rote Kabel mit dem 5V-Pin (also dem Pluspol) und das blaue mit dem GND (Steht für
 "ground", das ist englisch für die elektrische "Masse" und ist der Minuspol).
 
 Bei manchen Teams hat die LED sofort geleuchtet, bei anderen nicht.

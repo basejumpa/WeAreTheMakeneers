@@ -3,20 +3,22 @@
 Übungensphase
 #############
 
-Während des Trainings erlernt Ihr, wie Ihr mit dem Arduino und dem Steckbrett umgeht. Dabei fangt
+Während des Trainings erlernt ihr, wie ihr mit dem Arduino und dem Steckbrett umgeht. Dabei fangt
 ihr mit einfachen Dingen an und steigert Euch hin zu komplexeren Inhalten.
 
-Am Ende des Trainings habt Ihr einen Baukasten von Fähigkeiten, die Ihr für Eure eigenes Projekt kombinieren könnt.
+Am Ende des Trainings habt ihr einen Baukasten von Fähigkeiten, die ihr für Eure eigenes Projekt
+kombinieren könnt.
 
-.. figure:: _figures/00-uebersicht.png
+.. drawio-figure:: _figures/00-uebersicht.drawio
     :scale: 50%
 
-    Baukasten der Fähigkeiten [#]_
+    Baukasten der Fähigkeiten [#vin]_
 
 .. toctree::
     :maxdepth: 1
     :hidden:
 
+    00-software-installieren
     01-led-anschliessen
     02-led-steuern
     03-infos-an-computer
@@ -37,4 +39,4 @@ Am Ende des Trainings habt Ihr einen Baukasten von Fähigkeiten, die Ihr für Eu
 
 .. rubric:: Anmerkungen
 
-.. [#] Die mit :kbd:`VIN` gekennzeichneten Fähigkeiten benötigen eine stärkere Stromquelle, als die der Arduino selbst darstellt. Dazu benötigen wir die Erweiterung auf dem Steckbrett und die Powerbank.
+.. [#vin] Die mit :kbd:`VIN` gekennzeichneten Fähigkeiten benötigen eine stärkere Stromquelle, als die der Arduino selbst darstellt. Dazu benötigen wir die Erweiterung auf dem Steckbrett und die Powerbank.
