@@ -9,7 +9,7 @@ aus als auf der folgenden Darstellung und die Farben der drei Kabel sind anders.
 Über die Steuerleitung bekommt über Spannungspulse der Servo mitgeteilt, welchen Winkel er anfahren
 soll.
 
-.. figure:: _figures/06-servo-ansteuern.png
+.. figure:: _figures/07-servo-ansteuern.png
 
 Wir müssen die Kabel wie folgt mit dem Arduino (über das Steckbrett) verbinden. Dazu nehmen wir als Zwischenkabel unsere normalen Steckbrett-Kabel:
 

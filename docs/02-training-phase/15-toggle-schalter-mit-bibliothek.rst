@@ -5,7 +5,7 @@ Wir möchten nun mit dem Schalter dauerhaft die LED an oder aus schalten und nic
 
 Dazu stecken wir die schon bekannte Schaltung:
 
-.. figure:: _figures/09-toggle-schalter-mit-bibliothek.png
+.. figure:: _figures/15-toggle-schalter-mit-bibliothek.png
 
 Dafür müssen wir "Flanken" erkennen. So nennt man das, wenn man ein Ereignis wie
 

@@ -7,7 +7,7 @@ Wir möchten nun folgendes: Die weiße LED soll leuchten, solange es zu dunkel i
 
 Die Schaltung sieht wie folgt aus:
 
-.. figure:: _figures/08-lichtsensor-steuert-led.png
+.. figure:: _figures/09-lichtsensor-steuert-led.png
 
 Das dazugehörige Programm:
 

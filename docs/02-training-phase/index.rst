@@ -34,6 +34,7 @@ kombinieren könnt.
     13-daten-und-signale-an-arduino-senden
     14-auf-schalter-reagieren-egal-wo-program
     15-toggle-schalter-mit-bibliothek
+    16-elektrische-leitfaehigkeit-messen
     99-todos
 
 

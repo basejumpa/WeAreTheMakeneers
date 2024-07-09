@@ -5,7 +5,7 @@ Mit dem Lichtsensor können wir die Helligkeit messen.
 
 Wir stecken folgende Schaltung: GND, der braune 1000Ohm Widerstand, der Lichtsensor und der 5V-Pin bilden einen Kreis. Wir stecken ein weiteres Kabel mit dem einen Ende an den Pin A0 und dem anderen zwischen den Widerstand und dem Lichtsensor.
 
-.. figure:: _figures/07-lichtsensor-benutzen.png
+.. figure:: _figures/08-lichtsensor-benutzen.png
 
 
 Das folgende Programm gibt die Helligkeitswerte auf der seriellen Schnittstelle aus.

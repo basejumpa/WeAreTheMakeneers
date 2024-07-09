@@ -1,4 +1,5 @@
-11. Übung: Motor antreiben
+11. Übung: Motor betreiben
 ##########################
 
-.. todo:: Beschreibe diese Übung hier.
+
+.. figure:: _figures/11-motor-betreiben.png
