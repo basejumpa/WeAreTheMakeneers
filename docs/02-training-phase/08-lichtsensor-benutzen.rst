@@ -10,17 +10,9 @@ Wir stecken folgende Schaltung: GND, der braune 1000Ohm Widerstand, der Lichtsen
 
 Das folgende Programm gibt die Helligkeitswerte auf der seriellen Schnittstelle aus.
 
-.. code-block:: cpp
-
-    void setup(){
-        Serial.begin(9600);
-    }
-
-    int licht = 0;
-    void loop() {
-        licht = analogRead(A0);
-        Serial.println(licht);
-    }
+.. literalinclude:: _sources/08-lichtsensor-benutzen.cpp
+    :language: cpp
+    :linenos:
 
 Wir betrachten auf dem seriellen Monitor und auch auf dem seriellen Plotter die Helligkeitswerte während wir den Lichtsensor mal mehr und mal weniger abdecken.
 

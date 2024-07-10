@@ -44,32 +44,12 @@ So, genug theoretischer Kram. All das habe ich Euch in dem komplizierten Program
 
 Und weil das so viel (komplizierter) Programmtext ist, hat jemand den in Form einer Bibliothek geschrieben, damit wir diese Bibliothek benutzen können und die Ereignisse
 
-    der Schalter wurde gedrückt ("steigende Flanke") und auch
-    der Schalter wurde losgelassen ("fallende Flanke")
+- der Schalter wurde gedrückt ("steigende Flanke") und auch
+- der Schalter wurde losgelassen ("fallende Flanke")
 
 ganz leicht abfragen können, ohne uns den ganzen Zustandskram selbst programmieren zu müssen. Dann
 sieht das Licht-an-Licht-aus-Schalten so einfach aus:
 
-.. code-block:: cpp
-
-    #include "Bounce2.h"
-
-    Bounce schalter;
-
-    void setup() {
-        Serial.begin(9600);
-        pinMode(3, OUTPUT);
-        pinMode(2, INPUT_PULLUP);
-        schalter.attach(2);
-    }
-
-    int led = 0;
-
-    void loop() {
-        schalter.update();
-        if(schalter.rose()){
-            led = !led;
-        }
-    digitalWrite(3, led);
-    Serial.println(led);
-    }
+.. literalinclude:: _sources/15-toggle-schalter-mit-bibliothek.cpp
+    :language: cpp
+    :linenos:

@@ -11,26 +11,9 @@ Die Schaltung sieht wie folgt aus:
 
 Das dazugehörige Programm:
 
-.. code-block:: cpp
-
-    void setup(){
-        pinMode(2, OUTPUT);
-        Serial.begin(9600);
-    }
-
-    int licht = 0;
-    void loop() {
-        licht = analogRead(A0);
-
-        if(licht <= 195){
-            digitalWrite(2, HIGH);
-        }else{
-            digitalWrite(2, LOW);
-    }
-
-    Serial.println(licht);
-    }
-
+.. literalinclude:: _sources/09-lichtsensor-steuert-led.cpp
+    :language: cpp
+    :linenos:
 
 Mit if-Anweisung oder besser gesagt if-else-Anweisung kann man Entscheidungen und verschiedene Wege durch das Programm realisieren.
 

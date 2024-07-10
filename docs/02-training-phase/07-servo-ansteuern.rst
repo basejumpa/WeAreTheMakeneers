@@ -20,24 +20,9 @@ Wir müssen die Kabel wie folgt mit dem Arduino (über das Steckbrett) verbinden
 Folgendes Programm passt zu der Schaltung und bewegt jede Sekunde den Servo auf eine der Positionen
 0°, 90° und 180°.
 
-.. code-block:: cpp
-
-    #include <Servo.h>
-
-    Servo servo;
-
-    void setup(){
-        servo.attach(5);
-    }
-
-    void loop() {
-        servo.write(0);
-        delay(1000);
-        servo.write(90);
-        delay(1000);
-        servo.write(180);
-        delay(1000);
-    }
+.. literalinclude:: _sources/07-servo-ansteuern.cpp
+    :language: cpp
+    :linenos:
 
 Das Programm verwendet die Servo-Bibliothek. Diese Bibliothek versteckt für uns die viele Arbeit die dahintersteckt, den Servo anzusteuern. Dazu müssen wir das dazugehörige Header-File, so nennt man die Dateien mit der Endung ".h" (wir programmieren übrigens die ganze Zeit C++), inkludieren. Noch so ein Programmier-Fachwort.
 

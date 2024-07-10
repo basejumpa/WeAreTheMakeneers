@@ -26,9 +26,9 @@
         "vscode-icons-team.vscode-icons",
         "swyddfa.esbonio",
         "tintinweb.graphviz-interactive-preview",
-        "stkb.rewrap",
         "oderwat.indent-rainbow",
-        "scootersoftware.bcompare-vscode"
+        "scootersoftware.bcompare-vscode",
+        "ms-vscode.cpptools"
 
     ]
 }

@@ -1,5 +1,5 @@
-Zuvor - Software installieren
-#############################
+Vorher - Software installieren
+##############################
 
 
 Benötigte Software
@@ -42,14 +42,14 @@ Falls ihr damit die Installation so nicht funktioniert. In diesem Falle muss man
 Optionale Software
 ******************
 
-Bounce2-Bibliothek
-    Für die einfache Flanken-Erkennung bei den Schaltern habe ich in die Entwicklungsumgebung die
-    Bounce2-Bibliothek gleich mit installiert. Diese bekommt ihr von dort
-    https://github.com/thomasfredericks/Bounce2/wiki
-
 Fritzing
     Die Schaltungen in dieser Doku habe ich mit dem Program "Fritzing" gemacht, das kann man von
     http://fritzing.org herunterladen.
+
+Bounce2-Bibliothek
+    Für die einfache Flanken-Erkennung bei den Schaltern habe ich in die Entwicklungsumgebung die
+    Bounce2-Bibliothek gleich mit installiert. In der aktuellen Version von der Arduino-Entwicklungsumgebung sollte diese automatisch dabei sein. Falls ihr die Bibliothek (trotzdem) braucht: Diese bekommt ihr von dort
+    https://github.com/thomasfredericks/Bounce2/wiki
 
 
 .. rubric:: Anmerkungen

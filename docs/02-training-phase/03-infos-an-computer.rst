@@ -10,15 +10,9 @@ Für diese Übung ist es egal, ob und welche Schaltung auf dem Steckbrett ist, d
 Unser erstes Programm schreibt zeilenweise "Hallo" auf die Konsole des Computers. Die Konsole können
 wir in der Arduino-Programmierumgebung durch Menuleiste/Werkzeuge/Serieller Monitor öffnen.
 
-.. code-block:: cpp
-
-    void setup(){
-        Serial.begin(9600);
-    }
-
-    void loop(){
-        Serial.println("Hallo");
-    }
+.. literalinclude:: _sources/03-infos-an-computer.cpp
+    :language: cpp
+    :linenos:
 
 Lasst uns kurz das Programm zusammen lesen. Die USB-Schnittstelle ist eine serielle Schnittstelle. In der setup-Funktion teilen wir dem Arduino mit, dass wir die serielle Schnittstelle benutzen wollen und er bitte die Kommunikation über diese beginnt. Man sagt in der Computertechnik dazu auch "man öffnet die Kommunikationsschnittstelle". Die Zahl 9600 bedeutet die Kommunikations-Geschwindigkeit in der Einheit "Zeichen pro Sekunde" . Wir könnten also 9600 einzelne Buchstaben in einer einzigen Sekunde an den Computer schicken. Nicht wenig, oder?
 

@@ -7,17 +7,9 @@ Wir stecken die auf dem folgenden Bild gezeigte Schaltung. Während der Schalter
 
 Folgendes Programm tippen wir ein und laden es auf den Arduino.
 
-.. code-block:: cpp
-
-    void setup(){
-        Serial.begin(9600);
-        pinMode(2, INPUT_PULLUP);
-    }
-
-    void loop() {
-        int schalter = digitalRead(2)
-        Serial.println(schalter);
-    }
+.. literalinclude:: _sources/04-schalter-einlesen.cpp
+    :language: cpp
+    :linenos:
 
 Wir schauen uns auf dem seriellen Monitor und auch auf dem seriellen Plotter an was passiert, wenn wir mit dem Schalter spielen. Wir sehen eine 1 während der Schalter unbetätigt ist; während wir ihn gedrückt halten sehen wir eine 0.
 

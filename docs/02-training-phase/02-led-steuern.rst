@@ -11,16 +11,9 @@ Die LED ist nun aus.
 
 Wir schalten sie an indem wir folgendes Programm auf den Arduino hochladen:
 
-.. code-block:: cpp
-
-    void setup(){
-        pinMode(3, OUTPUT);
-        digitalWrite(3, HIGH);
-    }
-
-    void loop(){
-    }
-
+.. literalinclude:: _sources/02-led-steuern.cpp
+    :language: cpp
+    :linenos:
 
 Ich erkläre mal genau dieses Programm und wie der Arduino dieses abarbeitet:
 

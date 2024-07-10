@@ -3,27 +3,8 @@
 
 .. todo:: Füge Beschreibung hinzu. Siehe [#]_.
 
-.. code-block:: cpp
-
-
-    int ledPin = 13;
-    int interruptPin = 2;
-    volatile int licht = LOW;
-
-    void setup() {
-        pinMode(ledPin, OUTPUT);
-        pinMode(interruptPin, INPUT_PULLUP);
-        attachInterrupt(digitalPinToInterrupt(interruptPin), schalte, RISING);
-    }
-
-    void loop() {
-        digitalWrite(ledPin, licht);
-    }
-
-    void schalte() {
-        licht = !licht;
-    }
-
-.. rubric:: Anmkerungen
+.. literalinclude:: _sources/14-auf-schalter-reagieren-egal-wo-program.cpp
+    :language: cpp
+    :linenos:
 
 .. [#] Siehe https://www.arduino.cc/en/Reference/AttachInterrupt
