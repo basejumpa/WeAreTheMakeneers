@@ -35,7 +35,6 @@ kombinieren könnt.
     14-auf-schalter-reagieren-egal-wo-program
     15-toggle-schalter-mit-bibliothek
     16-elektrische-leitfaehigkeit-messen
-    99-feedback-leasons-learned-todos
 
 
 .. rubric:: Anmerkungen

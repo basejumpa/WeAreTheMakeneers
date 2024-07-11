@@ -18,4 +18,3 @@ Hier sind die Informationen zu dem Projekt "Spass mit Elektronik" der Projekttag
     02-training-phase/index
     03-construction-phase/index
     99-appendix/index
-    license
