@@ -2,7 +2,7 @@ Willi-Makers - Spaß mit Elektronik
 ##################################
 
 Hier sind die Informationen zu dem Projekt "Spass mit Elektronik" der Projekttage
-2024 des `Wiligis-Gymnasiums in Mainz <https://www.willigis-online.de/>`__.
+2024 des `Willigis-Gymnasiums in Mainz <https://www.willigis-online.de/>`__.
 
 .. image:: _figures/willi-makers.png
     :scale: 50%
